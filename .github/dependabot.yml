@@ -6,7 +6,7 @@ updates:
   # Enable version updates for npm
       
   - package-ecosystem: "nuget"
-    directory: "/azure/sdk-identity-resources-storage" #AzureIdentityStorageExample.csproj
+    directory: "/" #AzureIdentityStorageExample.csproj
     schedule:
       interval: "daily"
     
