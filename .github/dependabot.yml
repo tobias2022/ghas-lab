@@ -18,3 +18,9 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "weekly"
+      
+  - package-ecosystem: "nuget"
+    directory: "/azure/sdk-identity-resources-storage" #AzureIdentityStorageExample.csproj
+    schedule:
+      interval: "daily"
+    
